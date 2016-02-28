@@ -18,7 +18,7 @@
   <body>
     <div class="container">
       #view( 'elements/nav/level-1' )#
-      #view( 'elements/articles' )#
+      #view( 'elements/content/articles' )#
     </div>
   </body>
 </html></cfoutput>

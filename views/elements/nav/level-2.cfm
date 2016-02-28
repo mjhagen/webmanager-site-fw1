@@ -1,5 +1,5 @@
 <cfoutput>
-  <ul class="list-unstyled">
+  <ul id="nav-#request.variableFormat( assetContent_sTitleText, true )#">
     <cfloop query="rc.nav.level2">
       <cfset local.navitem = {
         "active" = listFind( rc.lCurrentNavPath, assetmeta_nID ) gt 0,
