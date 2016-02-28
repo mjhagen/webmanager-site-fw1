@@ -8,7 +8,7 @@
         "link" = assetContent_sTitleText contains chr( 0182 ) ? listRest( assetContent_sTitleText, chr( 0182 )) : "/#rc.xdirectlinks[assetmeta_nID]#"
       } />
 
-      <li>
+      <li id="nav-#request.variableFormat( assetContent_sTitleText, true )#">
         #view( 'elements/nav/item', local.navitem )#
         <cfif local.navitem.active>
           #view( "elements/nav/level-2" )#
