@@ -1,0 +1,1 @@
+component extends="e-line_cm.lib.cfc.fw1.client" {}
