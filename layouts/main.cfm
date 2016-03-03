@@ -9,10 +9,11 @@
     <meta name="description" content="#request.site.sDescription#">
     <meta name="keywords" content="#request.site.sKeywords#">
 
-    <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="//cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
     <link rel="stylesheet" href="/inc/css/main.css">
 
-    <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+    <script src="//code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="//cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
     <script src="/inc/js/main.js"></script>
   </head>
   <body>
