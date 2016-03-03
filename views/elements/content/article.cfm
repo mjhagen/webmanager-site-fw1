@@ -6,8 +6,6 @@
 <cfoutput>
   <div class="article" id="article-#local.id#">
     <h1>#local.title# <small>#local.intro#</small></h1>
-    <hr class="small" />
     #local.body#
-    <hr class="small" />
   </div>
 </cfoutput>
